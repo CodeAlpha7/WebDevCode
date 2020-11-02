@@ -190,14 +190,14 @@ h3 {
 
 @media (max-width: 995px) {
   .wifi-image{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   .catchphrase {
+    padding: 15% 15%;
     text-align: center;
   }
   .download-button {
-    text-align: center;
     display: flex inline;
     line-height: 25px;
     font-size: 1rem;
