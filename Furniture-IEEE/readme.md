@@ -1,5 +1,6 @@
-# Runtime Terror - WeboCode (2021)
+# Furniture E-commerce Website
 
+This Front-end only Website was the entry into the front-end development competition WeboCode-2021 held by IEEE-NSUT Chapter.
 Modern day flexible and minimalist UI with aesthetic user-flow, designed using Figma. <br>
 Hosted Website accessible [here](https://codealpha7.github.io/IEEE-WeboCode/).
 <br><br><br>
