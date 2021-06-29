@@ -1,6 +1,6 @@
 # Furniture E-commerce Website
 
-This Front-end only Website was the entry into the front-end development competition WeboCode-2021 held by IEEE-NSUT Chapter.
+This Front-end only Website was the entry into the front-end development competition WeboCode-2021 held by IEEE-NSUT Chapter. <br><br>
 Modern day flexible and minimalist UI with aesthetic user-flow, designed using Figma. <br>
 Hosted Website accessible [here](https://codealpha7.github.io/IEEE-WeboCode/).
 <br><br><br>
@@ -33,6 +33,6 @@ Hosted Website accessible [here](https://codealpha7.github.io/IEEE-WeboCode/).
   - Animated buttons and quick home brand
   - Easy Access Social Media
   - Sign in/Sign Up buttons
-- All code written in 36 hours with a clean commit history.
+- All code written in 36 hours with a clean [commit history](https://github.com/CodeAlpha7/IEEE-WeboCode).
 
   
