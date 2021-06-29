@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- CSS Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/54a98c3563.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+
+    <title>Furniture</title>
+</head>
+<body>
+
+  <!--Header-->
+  <header id="header" class=" header">
+    <i class="fab fa-twitter header-icon"></i> <i class="fab fa-facebook-f header-icon"></i> <i class="fab fa-instagram header-icon"></i> <i class="fas fa-envelope header-icon"></i></p>
+
+    <div class="header-left">
+			
+      <div class="search-box">
+        <div id="sb-search" class="sb-search">
+          <form action="#" method="post">
+            <input class="sb-search-input" placeholder="Enter Item" type="search"  id="search">
+            <input class="sb-search-submit" type="submit" value="">
+            <span class="sb-icon-search"> </span>
+            <!--  <i class="fas fa-search"></i>       -->
+          </form>
+        </div>
+      </div>
+      
+      <!-- Implemented a working search bar-->
+      <script src="Javascript.js"></script>
+      <script>
+        new UISearch( document.getElementById( 'sb-search' ) );
+      </script>
+  </header>
+
+    <!-- Navbar-->
+    <nav id="navbar-id" class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">    
+                furniture
+            </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav navbar-center">
+                  <li class="nav-item">
+                    <a class="nav-link nav-animation active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-animation" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-animation" href="#" tabindex="-1" aria-disabled="true">Team</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Bedroom</a></li>
+                      <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                      <li><a class="dropdown-item" href="#">Bathroom</a></li>
+                      <li><a class="dropdown-item" href="#">Garden</a></li>
+                      <li><a class="dropdown-item" href="#">Study</a></li>
+                      <li><a class="dropdown-item" href="#">Dining</a></li>
+                      <li><a class="dropdown-item" href="#">Hallway</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Customer Service</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                  <button class="button signin">Sign in</button>
+                  <button class="button pillbutton">Sign Up</button>
+                </ul>
+
+               <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                -->
+
+          </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    
+    <div class="fluid-container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Pictures/landing-1.jpg" class="d-block w-100 img-fluid img-responsive landing-1" alt="bedroom_pic">
+                <div class="carousel-content">
+                  <h1>Comfortable Bedrooms</h1>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Pictures/landing-4.jpg" class="d-block w-100 img-fluid landing-4" alt="...">
+                <div class="carousel-content">
+                  <h1>Luxury Living Rooms</h1>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Pictures/landing-5.jpg" class="d-block w-100 img-fluid landing-5" alt="...">
+                <div class="carousel-content">
+                  <h1>Ambient Guest Rooms</h1>
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+     <!-- Services Section -->
+     <section id="services" class="service-screensize">
+      <div class="container services-container">
+          <div class="row">
+            <div class="col-md-4 service-backdrop"></div>
+            
+              <div class="col-md-5 imageServices">
+                  <div class="col-md-6 sofas">
+                      <div class="row">
+                          <img class="sofa1 img-fluid" src="Pictures/sofa1.svg" alt="sofa1">
+                      </div>
+                      <div class="row">
+                          <img class="sofa2 img-fluid" src="Pictures/sofa2.svg" alt="sofa2">
+                      </div>
+                      <img class="lamp img-fluid" src="Pictures/lamp.svg" alt="lamp">
+                  </div>
+              </div>
+              <div class="col-md-7 textServices">
+                  <h1>Our <span>Award-winning</span> services</h1>
+                  <p>Take advantage of our world-class service whether it be timely delivery, 
+                     convenient installment or a 30-day no questions asked return policy,  all of which are present at your fingertips. Enjoy complimentary service 
+                    from our professional interior designer to make your home look: </p>
+                  <ul>
+                      <li>Elegant</li>
+                      <li>Minimalist</li>
+                      <li>Stylish</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- End Services Section -->
+
+  <!-- Download Section -->
+  <section id="download">
+    <div class="component"><img src="Pictures/component.svg" alt="component"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 textDownload">
+                <h1><span>Download</span> our app and get instant discounts!</h1>
+                <p>All our products available at the convenince of your fingertips with even added discounts and extra bonuses. Can it get any better?</p>
+                <a href=""><img src="Pictures/android.svg" class="img-fluid android" alt="android"></a>
+                <a href=""><img src="Pictures/apple.svg" class="img-fluid apple" alt="apple"></a>
+            </div>
+            <div class="col-md-5 imageDownload">
+                <img class="mockup" src="Pictures/mockup.svg" class="img-fluid" alt="mockup">
+                <h1>GET 40% OFF <br>
+                    FOR EVERY <br>
+                    PURCHASE!</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Download Section -->
+
+<!-- Footer Section -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 credit">
+                        
+                        <p>Azad Hind Gauj Marg<br>
+                            NSUT, New Delhi, India.</p>
+                        <p>Costumer Service : support@furniture.com</p>
+                    </div>
+                    <div class="col-md-3 support">
+                        <h6>Support</h6>
+                        <a href="#"><p>Privacy & Policy</p></a>
+                        <a href="#"><p>Term & Conditions</p></a>
+                        <a href="#"><p>Support System</p></a>
+                    </div>
+                    <div class="col-md-3 about">
+                        <h6>Support System</h6>
+                        <a href="#"><p>About us</p></a>
+                        <a href="#"><p>Design Services</p></a>
+                    </div>
+                    <div class="col-md-2 contact">
+                        <h6>Contact Us</h6>
+                        <div class="socialMedia">
+                            <a href="#"><img src="Pictures/instagram.svg" alt="instagram"></a>
+                            <a href="#"><img src="Pictures/facebook.svg" alt="facebook"></a>
+                            <a href="#"><img src="Pictures/twitter.svg" alt="twitter"></a>
+                            <a href="#"><img src="Pictures/email.svg" alt="email"></a>
+                        </div>
+                    </div>
+                    <p class="copyright">Copyright 2021 | All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+        <!-- End Footer Section -->
+
+    <!-- GSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <!--jQuery Libraries-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Javascript libraries-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="Javascript.js" charset="utf-8"></script>
+</body>
+</html>
