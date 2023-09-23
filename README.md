@@ -1,4 +1,7 @@
-# WebDevCode
+# Web Development Projects
+(Click on hyperlinked titles to get re-directed to respective deployed websites)
+
+(Click project folders above to view their readme files)
 
 Contains code for all projects done along with tools/languages used:
 
